@@ -1,0 +1,25 @@
+.box{
+    width: 150px;
+    height: 150px;
+}
+
+.box:nth-child(1){
+    background-color: red;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.box:nth-child(3){
+    background-color: blue;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.box:nth-child(2){
+    background-color: greenyellow;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
